@@ -1,0 +1,46 @@
+{
+ "save_path": "test",
+ "data_folder": "boxing",
+ "data_path": "./data/boxing",
+ "device": "cuda:0",
+ "train_batch_size": 64,
+ "test_batch_size": 64,
+ "dropout": 0.2,
+ "attn_heads": 4,
+ "eval_per_steps": 3,
+ "enable_res_parameter": 1,
+ "loss": "ce",
+ "pooling_type": "mean",
+ "save_model": 1,
+ "masking_ratio": 0.2,
+ "ratio_highest_attention": 0.5,
+ "layer": 3,
+ "TENlayer_per_layer": [
+  6,
+  6,
+  6
+ ],
+ "hidden_size_per_layer": [
+  256,
+  128,
+  64
+ ],
+ "slice_per_layer": [
+  8,
+  2,
+  2
+ ],
+ "stride_per_layer": [
+  8,
+  2,
+  2
+ ],
+ "position_location": "top",
+ "position_type": "cond",
+ "lr": 0.0001,
+ "lr_decay_rate": 1.0,
+ "lr_decay_steps": 3,
+ "weight_decay": 0.01,
+ "num_epoch": 1000,
+ "num_class": 13
+}
