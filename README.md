@@ -1,4 +1,4 @@
-# RSFormer:  Time Series Transformer for Robust Sports Action Recognition
+# RSFomer:  Time Series Transformer for Robust Sports Action Recognition
 ---
 
 Source code for RSFormer
