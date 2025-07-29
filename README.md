@@ -42,3 +42,11 @@ The boxing action test dataset is located at `data/boxing`, and the boxing actio
 ```bash
 python test.py --json_path ./test/args.json --model_path ./test/model.pkl
 ```
+
+
+## Reference
+If you find this research useful, please kindly cite the following paper published at ACM Multimedia (ACM MM'25).
+```
+Yongan Guo, Zhongyan Zhou, Yuao Wang, Na Zhu, Xuyun Zhang, Hongwang Xiao, Yuan Miao, and Bo Li. RSFomer: Time Series Transformer for Robust Sports Action Recognition. Proceedings of the 33rd ACM International Conference on
+Multimedia (MM'25), October 27--31, 2025, Dublin, Ireland. DOI: 10.1145/3746027.3754807.
+```
